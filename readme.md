@@ -1,8 +1,8 @@
 <!-- # RSSddit
  -->
-![Title](img/header.jpg)
+![Title](img/header.png)
 
-[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://github.com/SmileyDrag0n/RSSddit/blob/master/LICENSE) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/SmileyDrag0n/RSSddit?include_prereleases)](https://github.com/SmileyDrag0n/RSSddit/releases) [![GitHub issues by-label](https://img.shields.io/github/issues/SmileyDrag0n/RSSddit/bug)](https://github.com/SmileyDrag0n/RSSddit/issues) [![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/SmileyDrag0n/RSSddit/latest?include_prereleases)](https://github.com/SmileyDrag0n/RSSddit/commits)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/SmileyDrag0n/RSSddit?include_prereleases)](https://github.com/SmileyDrag0n/RSSddit/releases) [![GitHub issues by-label](https://img.shields.io/github/issues/SmileyDrag0n/RSSddit/bug)](https://github.com/SmileyDrag0n/RSSddit/issues?q=is%3Aissue+is%3Aopen+label%3Abug) [![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/SmileyDrag0n/RSSddit/latest?include_prereleases)](https://github.com/SmileyDrag0n/RSSddit/commits)
 
 This is a simple and minimalistic Rainmeter skin with Reddit RSS feed, Karma meter, Twitch live and some add-ons
 
@@ -30,10 +30,10 @@ This is a simple and minimalistic Rainmeter skin with Reddit RSS feed, Karma met
 - After authorization, you will be redirected to unresponding localhost. **This is completely normal.** Copy your newly generated token after *&access_token=* from the URL field of your browser, it should look like this:
 
 ```url
-localost:3000/#access_token=COPYME&scope=user...
+localost:3000/&access_token=COPYME&scope=user...
 ```
 
-- Paste the token into corresponding field in the skin and **press enter**
+- Paste the token (COPYME in the example above) into corresponding field in the skin and **press enter**
 - Click **Log in**
 - If you've done everything correctly, Twitch Live panel will now show active streamers
 
@@ -61,18 +61,18 @@ All settings can be accessed through each skin's context menu (Right-click on th
 
 Written by [@hiimkir](https://github.com/hiimkir)
 
-- 'www.' is optional
-- Add 'old.' to your to rss url for your links to lead to classsic reddit (works vice versa too)
+- 'www.' in URL is optional
+- Add 'old.' to your to RSS URL for your links to lead to classsic reddit (works vice versa too)
 - 'https://' is requred for rss to work
 
 ### Non-private feeds
 
 - Just add .rss to ***almost*** any reddit page url
 - Doesn't matter if it's '.rss' or '/.rss' unless it's reddit.com
-- Search results don't work for some reason (will not be fixed)
+- Search results don't work for some reason ([#23](https://github.com/SmileyDrag0n/RSSddit/issues/23))
 - Only **posts** will be displayed in widget, so no point in trying to use comment-only feeds (may be fixed)
-- **Every** reddit page under this criteria must work, if it doesn't then find me and punch me in my face (consider opening an issue before that)
-- rpan, settings and wikis **obviously** don't work
+- **Every** reddit page under this criteria should work, if it doesn't then consider [creating an issue](https://github.com/SmileyDrag0n/RSSddit/issues)
+- r/pan, settings and wikis **obviously** don't work
 
 ### Private feeds
 
